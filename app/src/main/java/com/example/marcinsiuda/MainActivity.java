@@ -3,6 +3,7 @@ package com.example.marcinsiuda;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
                 for (int i = 0 ; i<6 ; i++) {
                     chosen.add(list.get(i));
                 }
+
+                Log.d("STATE", "Wybrano 6 cyfr (kolega robił)");
 
                 Collections.sort(chosen);
 
