@@ -3,6 +3,7 @@ package com.example.marcinsiuda;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -30,6 +31,8 @@ public class MainActivity extends AppCompatActivity {
                 for (int i = 1; i<49; i++) {
                     list.add(i);
                 }
+
+                Log.d("STATE", "Wylosowano 49 cyfr");
 
                 Collections.shuffle(list);
 
