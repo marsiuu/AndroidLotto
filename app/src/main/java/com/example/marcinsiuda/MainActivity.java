@@ -32,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
                     list.add(i);
                 }
 
+                Log.d("STATE", "Wylosowano 49 cyfr");
+
                 Collections.shuffle(list);
 
                 ArrayList<Integer> chosen = new ArrayList<>();
